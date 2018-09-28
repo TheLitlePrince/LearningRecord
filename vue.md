@@ -1,12 +1,10 @@
-# Vue Learning Summary
+# Vue Learning Record
 
 ### A Progressive JavaScript Framework
 
-![Vue Logo](/photos/logo.png)
-
 ---
 
-## My Learning Record
+## Learning Notes
 
 _Step by step to build a project_
 
@@ -16,13 +14,11 @@ _Step by step to build a project_
 >
 > npm run serve
 
-_And successfully, I have got a web page like this_
+_Now it's complied_
 
-![serve](/photos/servecut.png)
-
-*Just like live server for html,
-I can view my code changes in real time with the local or network url.*
-_Open my project directory, and find it looks like this_
+**Just like live server for html,
+we can view code changes in real time with the local or network url.**
+_Project directory_
 
 ![Project](/photos/directorycut.png)
 
@@ -39,5 +35,25 @@ _Open my project directory, and find it looks like this_
 | components | component file        |
 | App.vue    | project entry file    |
 | main.js    | core file             |
+
+---
+
+## Learning Summary
+
+### Responsive Design
+
+_In Vue.js, I only need to bind the view to the corresponding model, and it can automatically observe the changes of the model and redraw the view. This feature makes my coding process quite simple and intuitive._
+
+### HTML-based template syntax
+
+_Vue.js uses an HTML-based template syntax which we can bind the DOM to the underlying Vue instance's data. And in this way, I can design my project more easier than original javascript which I have experinced in summer._
+
+### Bettrt Efficiency and Performance
+
+_In the process of learning the basic grammar of vue.js, I can feel the efficiency of the Responsive Design, which is much faster than the project programmed by original javascript._
+
+### Orderly Front Framework
+
+_This is th first time I learn a front framework, and I think that a framework is to develop a set of norms or rules, which I can work under this to focus more on funtions and features._
 
 ---

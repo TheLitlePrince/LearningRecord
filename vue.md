@@ -38,6 +38,14 @@ _Project directory_
 
 ---
 
+## Learning Practice
+
+### [demo](demo.html)
+
+_This program is about the Responsive design in Vue.js._
+
+---
+
 ## Learning Summary
 
 ### Responsive Design

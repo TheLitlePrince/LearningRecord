@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Vue Practice</title>
+    <script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+    <link rel="stylesheet" href="demo.css" text="text/css" />
+</head>
+
+<body>
+    <p>Here's a demo of Vue.js</p>
+    <br><br>
+    <p>Click to change the text.</p>
+    <br><br>
+    <div id="main">
+        <nav v-bind:class="current" v-on:click.prevent>
+            <a href="#" class="HTML" v-on:click="respondCur('HTML')">HTML</a>
+            <a href="#" class="CSS" v-on:click="respondCur('CSS')">CSS</a>
+            <a href="#" class="JavaScript" v-on:click="respondCur('JavaScript')">JavaScript</a>
+            <a href="#" class="Vue" v-on:click="respondCur('Vue')">Vue</a>
+        </nav>
+        <br><br>
+        <p>{{current}}</p>
+    </div>
+    <script>
+        var dome = new Vue({
+            el: "#main",
+            data: {
+                current: "HTML",
+            },
+            methods: {
+                respondCur: function (item) {
+                    this.current = item;
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

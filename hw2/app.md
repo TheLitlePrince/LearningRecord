@@ -74,6 +74,10 @@ _Here're the **pros** and **cons** of hybrid development:_
 
 ## Summary
 
+_There is no absolute better, it depends on what is best for our situation. Weighing this with the pros and cons, native development sounds like the right choice. But we can see that a method that works for one app may not apply to another._
+
+#
+
 ![Summary](photos/compare.png)
 
-_There is no absolute better, it depends on what is best for our situation. Weighing this with the pros and cons, native development sounds like the right choice. But we can see that a method that works for one app may not apply to another. Some may remain skeptical about hybrid development summed up by Java’s “Compile Once, Run Anywhere” phrase._
+---

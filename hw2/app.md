@@ -24,6 +24,8 @@ _Now let's list the **pros** and **cons** of native development:_
 
 - Native applications can access exclusive native APIs in the phone’s operating system such as push notifications, camera, and in-app purchases, which would otherwise be prohibited, or provided in a cumbersome manner on a mobile web application.
 
+- Android provides Constraint Layout (link is external)features that help in maintaining aspect ratio on their respective devices.
+
 - Apple definitely wants to push their brand whenever possible, so they have provided UI components from their UI libraries to make development a little less painful.
 
 #### Cons
@@ -31,6 +33,8 @@ _Now let's list the **pros** and **cons** of native development:_
 ![mobile operation system](photos/os.jpg)
 
 - Native applications typically require designers to define phones and tablets separately, or define individual layouts. While this step is available and repeated on the web with CSS media queries, it’s usually a single layout and multiple style-sheets. The effort for native is non-transferable between iOS, Android and others since each operating system is locked into proprietary tooling.
+
+- Native platforms define their own rules and frameworks and inherit little from other disciplines, requiring more investment. For many businesses with existing development (ie. web, desktop app, etc) personnel, they would be unable to utilize these existing resources towards a native mobile application.
 
 - If you intend to also publish your app to a different app store, your application will need to be rewritten in order to be a native app on another mobile OS. This usually delays features for the next platform in development.
 
@@ -54,6 +58,8 @@ _Here're the **pros** and **cons** of hybrid development:_
 
 ![hybrid app Pros](photos/hybridAppPros.jpg)
 
+- Saved Time and Money. While native apps will need to be programmed for each operating system they are featured on, hybrid apps have a one-for-all build. The result is less time and money spent developing multiple versions of the same application, as what is built will be suited for all devices when programmed correctly.
+
 - The content of a hybrid app is portable and just requires a native harness to run it.
 
 - Since software like React provides frameworks to make a webpage act like a native application, they can be distributed on the App Store.
@@ -69,6 +75,8 @@ _Here're the **pros** and **cons** of hybrid development:_
 - Phonegap, Cordova and others generate native by-products, meaning you still have to support and manage the individual packages in the app-stores. Keeping versions in sync across platforms while addressing individual bugs can be more difficult than a pure native approach.
 
 - Lack of the pure UI assets of iOS or Android may result in a slower performance of the app in general. It may not look like a mobile website, but it may feel like it at certain points.
+
+- Potential Lagging. Because a hybrid app is run on many different operating systems, it is possible that complications caused by interfacing with these different systems can cause lag. While this is not necessarily the case for all apps and depends on how each one is programmed, developers will need to take the potential for lag into account while designing the application.
 
 ---
 

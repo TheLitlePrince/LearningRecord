@@ -1,5 +1,7 @@
 # Native and Hybrid Application Summary
 
+![title](photos/title.jpg)
+
 ---
 
 ## Native App
@@ -69,3 +71,9 @@ _Here're the **pros** and **cons** of hybrid development:_
 - Lack of the pure UI assets of iOS or Android may result in a slower performance of the app in general. It may not look like a mobile website, but it may feel like it at certain points.
 
 ---
+
+## Summary
+
+![Summary](photos/compare.png)
+
+_There is no absolute better, it depends on what is best for our situation. Weighing this with the pros and cons, native development sounds like the right choice. But we can see that a method that works for one app may not apply to another. Some may remain skeptical about hybrid development summed up by Java’s “Compile Once, Run Anywhere” phrase._

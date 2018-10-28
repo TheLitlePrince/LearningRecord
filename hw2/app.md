@@ -1,4 +1,4 @@
-# Native and Hybrid Application Summary
+# Native Application vs Hybrid Application
 
 ![title](photos/title.jpg)
 
@@ -82,7 +82,9 @@ _Here're the **pros** and **cons** of hybrid development:_
 
 ## Summary
 
-_There is no absolute better, it depends on what is best for our situation. Weighing this with the pros and cons, native development sounds like the right choice. But we can see that a method that works for one app may not apply to another._
+_Weighing this with the pros and cons, native development sounds like the right choice. But we can see that a method that works for one app may not apply to another. Hybrid development is more prospective. It allows companies to simplify the development process, reduce costs and save time._
+
+**_There is no absolute better, it depends on what is best for our situation._**
 
 #
 

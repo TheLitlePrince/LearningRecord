@@ -1,6 +1,14 @@
 # hw3
 
-> todeList displayed by silders
+---
+
+## Project Intorduction
+
+**todolist application**
+
+![demo](img/display.png)
+
+_learn from mooc and then add css and unit tests based on it_
 
 ## Build Setup
 
@@ -10,9 +18,6 @@ npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report

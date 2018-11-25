@@ -1,15 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>demo</title>
+		<link rel="stylesheet" href="node_modules/todomvc-common/base.css" />
+		<link rel="stylesheet" href="node_modules/todomvc-app-css/index.css" />
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>practice</title>
-</head>
+	<body>
+		<section class="todoapp" id="app">
+			<header class="header">
+				<h1 v-my-show="seen">list</h1>
+				<input
+					class="new-todo"
+					@keyup.enter="addTodo"
+					placeholder="What needs to be done?"
+					v-focus
+				/>
+			</header>
 
-<body>
-  <div id="app"></div>
-  <!-- built files will be auto injected -->
-</body>
+			<template v-if="todos.length !== 0">
+				<section class="main">
+					<input
+						id="toggle-all"
+						class="toggle-all"
+						@click="toggleAll"
+						type="checkbox"
+					/>
+					<label for="toggle-all">Mark all as complete</label>
+					<ul class="todo-list">
+						<li
+							:class="{completed: todo.done, editing:todo === currentEdit}"
+							v-for="todo in filterTodos"
+						>
+							<div class="view">
+								<input class="toggle" type="checkbox" v-model="todo.done" />
+								<label @dblclick="getEditting(todo)">{{ todo.title }}</label>
+								<button class="destroy" @click="removeTodo(todo.id)"></button>
+							</div>
+							<input
+								class="edit"
+								:value="todo.title"
+								v-todo-focus="currentEdit === todo"
+								@keyup.esc="cancelEdit"
+								@keyup.enter="editTodo(todo, $event)"
+								@blur="editTodo(todo, $event)"
+							/>
+						</li>
+					</ul>
+				</section>
+			</template>
+		</section>
 
+		<script src="node_modules/vue/dist/vue.js"></script>
+		<script src="js/todo.js"></script>
+		<script src="js/app.js"></script>
+	</body>
 </html>
